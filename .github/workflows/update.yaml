@@ -5,8 +5,8 @@ on:
   push:
     branches: [ "main" ]
   schedule:
-    - cron: '30 7 * * *'
-    - cron: '30 19 * * *'
+    - cron: '30 10 * * *'
+    - cron: '30 22 * * *'
 
 permissions:
   contents: write
@@ -17,6 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - run: |
+          export TZ=America/Sao_Paulo
           source VARIABLES
           
           CUR_DATE=$(date +'%m-%d-%Y')
@@ -27,15 +28,10 @@ jobs:
             RESPONSE=$(curl -s "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='$CUR_DATE'")
             NEW_VALUE=$(echo $RESPONSE | jq -r '.value[0].cotacaoVenda // ""')
           fi
-          if [[ -z "$NEW_VALUE" ]]; then
-            CUR_DATE=$(date -d '-2 days' +'%m-%d-%Y')
-            RESPONSE=$(curl -s "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='$CUR_DATE'")
-            NEW_VALUE=$(echo $RESPONSE | jq -r '.value[0].cotacaoVenda // ""')
-          fi
 
-          echo "PLEAAASE: $NEW_VALUE"
           if [[ -n "$NEW_VALUE" && "$NEW_VALUE" != "$CURRENT_VALUE" ]]; then
-            sed -i "s/^CURRENT_VALUE=.*/CURRENT_VALUE=$NEW_VALUE/" VARIABLES
+            FORMATTED=$(printf "%.2f" "$NEW_VALUE" | tr '.' ',')
+            sed -i "s/^CURRENT_VALUE=.*/CURRENT_VALUE=$FORMATTED/" VARIABLES
             
             git config user.name 'github-actions[bot]'
             git config user.email 'github-actions[bot]@users.noreply.github.com'
