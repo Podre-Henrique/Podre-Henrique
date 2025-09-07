@@ -17,6 +17,11 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - run: |
+          if ! command -v jq &> /dev/null
+          then
+              echo "jq could not be found. Please install jq first."
+              exit 1
+          fi
           source VARIABLES
           
           CUR_DATE=$(date +'%m-%d-%Y')
@@ -27,6 +32,7 @@ jobs:
             RESPONSE=$(curl -s "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='$CUR_DATE'")
             NEW_VALUE=$(echo $RESPONSE | jq -r '.value[0].cotacaoVenda // ""')
           fi
+          echo "RESPONSE: $RESPONSE"
           echo "New value: $NEW_VALUE"
           if [[ -n "$NEW_VALUE" && "$NEW_VALUE" != "$CURRENT_VALUE" ]]; then
             sed -i "s/^CURRENT_VALUE=.*/CURRENT_VALUE=$NEW_VALUE/" VARIABLES
