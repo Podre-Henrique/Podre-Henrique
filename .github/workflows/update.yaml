@@ -19,9 +19,14 @@ jobs:
       - run: |
           source VARIABLES
           
-          CURRENT_DATE=$(date +'%m-%d-%Y')
-          API_RESPONSE=$(curl -s "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='$CURRENT_DATE'")
-          NEW_VALUE=$(echo $API_RESPONSE | jq -r '.value[0].cotacaoVenda // ""')
+          CUR_DATE=$(date +'%m-%d-%Y')
+          RESPONSE=$(curl -s "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='$CUR_DATE'")
+          NEW_VALUE=$(echo $RESPONSE | jq -r '.value[0].cotacaoVenda // ""')
+          if [[ -z "$NEW_VALUE"]]; then
+            CUR_DATE=$(date -d 'yesterday' +'%m-%d-%Y')
+            RESPONSE=$(curl -s "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='$CUR_DATE'")
+            NEW_VALUE=$(echo $RESPONSE | jq -r '.value[0].cotacaoVenda // ""')
+          fi
           
           if [[ -n "$NEW_VALUE" && "$NEW_VALUE" != "$CURRENT_VALUE" ]]; then
             sed -i "s/^CURRENT_VALUE=.*/CURRENT_VALUE=$NEW_VALUE/" VARIABLES
