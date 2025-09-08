@@ -49,7 +49,7 @@
 </table>
 </p>
 
-## 🤨 Current Interests
+## 🤨 Right Now
 
 <p style="border-left: 3px solid #574C8D; padding-left: 15px;">
 Current favorite video: <a href="https://www.youtube.com/watch?v=k3aZ1E_m_Hs">惨劇な天使のテーゼ【音MAD】 [Youtube]</a><br>

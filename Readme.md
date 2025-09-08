@@ -2,62 +2,39 @@
 
 ## 🙂 About Me
 
-<p style="border-left: 3px solid #574C8D; padding-left: 15px;">
-    Hi, I’m Pedro Henrique<br>
-    Computer Engineering Student at UEMG<br>
-    Divinópolis - Minas Gerais <br>
-    My favorite hobbies are: Getting frustrated while gaming and listening to weird music<br>
-    <span style="color: grey">Grey</span> is my favorite color<br>
-    Contact: <strong>pedro.hen.costa34@gmail.com</strong>
-</p>
-
+> Hi, I’m Pedro Henrique
+> 
+> Computer Engineering Student at UEMG
+> 
+> Divinópolis - Minas Gerais 
+> 
+> My favorite hobbies are: Getting frustrated while gaming and listening to weird music
+> 
+> Grey is my favorite color
+> 
+> Contact: **pedro.hen.costa34@gmail.com**
 
 ## ☝🤓 Tech Stack
-<p style="border-left: 3px solid #574C8D;">
-<table style="width:100%; border-collapse: collapse;">
-  <tr>
-    <td style="width:33%; padding:5px; vertical-align:top; border-right: 1px solid #444;" align="center">
-      <span style="font-weight: 600;font-size: medium; display: inline-block; margin-bottom: 5px;">Programming Languages</span>
-      <br>
-      Go<br>
-      Python<br>
-      C++<br>
-      Dart (Flutter)<br>
-      C<br>
-      C#
-    </td>
-    <td style="width:33%; padding:5px; font-size: medium; vertical-align:top; border-right: 1px solid #444;" align="center">
-      <span style="font-weight: 600; display: inline-block; margin-bottom: 5px;">Databases</span>
-      <br>
-      MariaDB<br>
-      MySQL<br>
-      PostgreSQL<br>
-      MongoDB<br>
-      Redis
-    </td>
-    <td style="width:33%; padding:5px; vertical-align:top;" align="center">
-      <span style="font-weight: 600; font-size: medium; display: inline-block; margin-bottom: 5px;">DevOps & Tools</span>
-      <br>
-      Docker<br>
-      Terraform<br>
-      Tofu <br>
-      Kubernetes (k8s / k3s)<br>
-      Prometheus<br>
-      Grafana
-    </td>
-  </tr>
-</table>
-</p>
 
-## 🤨 Current Interests
+| Programming Languages | Databases | DevOps & Tools |
+| :--- | :--- | :--- |
+| Go | MariaDB | Docker |
+| Python | MySQL | Terraform |
+| C++ | PostgreSQL | Tofu |
+| Dart (Flutter) | MongoDB | Kubernetes (k8s / k3s) |
+| C | Redis | Prometheus |
+| C# | | Grafana |
 
-<p style="border-left: 3px solid #574C8D; padding-left: 15px;">
-Current favorite video: <a href="https://www.youtube.com/watch?v=k3aZ1E_m_Hs">惨劇な天使のテーゼ【音MAD】 [Youtube]</a><br>
-Currently reading: <strong>Higurashi When They Cry: Meguri</strong><br>
-Current favorite song: <a href="https://soundcloud.com/loveloverecords/3db4a2e0-3777-4819-b2d4-beada093b4c4">Ely Muff - Automatic Predator [Soundcloud]</a>
-</p>
+## 🤨 Right Now
+
+> Current favorite video: [惨劇な天使のテーゼ【音MAD】 [Youtube]](https://www.youtube.com/watch?v=k3aZ1E_m_Hs)
+> 
+> Currently reading: **Higurashi When They Cry: Meguri**
+> 
+> Current favorite song: [Ely Muff - Automatic Predator [Soundcloud]](https://soundcloud.com/loveloverecords/3db4a2e0-3777-4819-b2d4-beada093b4c4)
 
 ----
-# 🇧🇷 Brasil-sil-sil <span style="font-size: large;"></span>
-💸 <span style="font-size: medium;margin-left: 10px;">1 Dólar (USD) = <strong>5,43</strong></span> <span style="font-size: small;margin-left: 15px;">[*Fonte: Banco Central do Brasil — acessado em 08/09/2025*]</span>
-<br><span style="font-size: xx-large;">...</span>
+# 🇧🇷 Brasil-sil-sil
+💸 1 Dólar (USD) = **{{usd_to_brl}}** [*Fonte: Banco Central do Brasil — acessado em {{usd_to_brl_day}}*]
+
+...
