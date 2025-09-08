@@ -34,9 +34,9 @@ jobs:
 
           if [[ -n "$NEW_VALUE" ]]; then
             BRL_FORMATED=$(printf "%.2f" "$NEW_VALUE" | tr '.' ',')
-            BRL_DAY=$(date -d "$FETCH_DATE" +'%d/%m/%Y')
+            BRL_DAY=$(date +'%d/%m/%Y')
 
-            sed "s/{{usd_to_brl}}/$USD_TO_BRL_FORMATED/g" README.template.md | sed "s/{{usd_to_brl_day}}/$USD_TO_BRL_DAY/g" > Readme.md
+            sed "s/{{usd_to_brl}}/$BRL_FORMATED/g" README.template.md | sed "s/{{usd_to_brl_day}}/$BRL_DAY/g" > Readme.md
             
             git config user.name 'github-actions[bot]'
             git config user.email 'github-actions[bot]@users.noreply.github.com'
