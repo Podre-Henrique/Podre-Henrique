@@ -15,27 +15,32 @@ jobs:
   update-dolar-quote:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-      - run: |
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and Update Dollar Quote
+        run: |
           export TZ=America/Sao_Paulo
-          source VARIABLES
           
-          CUR_DATE=$(date +'%m-%d-%Y')
-          RESPONSE=$(curl -s "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='$CUR_DATE'")
+          FETCH_DATE=$(date +'%m-%d-%Y')
+          RESPONSE=$(curl -s "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='$FETCH_DATE'")
           NEW_VALUE=$(echo $RESPONSE | jq -r '.value[0].cotacaoVenda // ""')
+
           if [[ -z "$NEW_VALUE" ]]; then
-            CUR_DATE=$(date -d '-1 day' +'%m-%d-%Y')
-            RESPONSE=$(curl -s "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='$CUR_DATE'")
+            FETCH_DATE=$(date -d '-1 day' +'%m-%d-%Y')
+            RESPONSE=$(curl -s "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='$FETCH_DATE'")
             NEW_VALUE=$(echo $RESPONSE | jq -r '.value[0].cotacaoVenda // ""')
           fi
 
-          if [[ -n "$NEW_VALUE" && "$NEW_VALUE" != "$CURRENT_VALUE" ]]; then
-            FORMATTED=$(printf "%.2f" "$NEW_VALUE" | tr '.' ',')
-            sed -i "s/^CURRENT_VALUE=.*/CURRENT_VALUE=$FORMATTED/" VARIABLES
+          if [[ -n "$NEW_VALUE" ]]; then
+            BRL_FORMATED=$(printf "%.2f" "$NEW_VALUE" | tr '.' ',')
+            BRL_DAY=$(date -d "$FETCH_DATE" +'%d/%m/%Y')
+
+            sed "s/{{usd_to_brl}}/$USD_TO_BRL_FORMATED/g" README.template.md | sed "s/{{usd_to_brl_day}}/$USD_TO_BRL_DAY/g" > Readme.md
             
             git config user.name 'github-actions[bot]'
             git config user.email 'github-actions[bot]@users.noreply.github.com'
-            git add VARIABLES
+            git add Readme.md
             git commit -m "[bot]: I forgive you"
             git push
           fi
