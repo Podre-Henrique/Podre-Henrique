@@ -2,14 +2,12 @@
 
 ## 🙂 About Me
 
-<p>
 Hi, I’m Pedro Henrique<br>
 Computer Engineering Student at UEMG<br>
 Minas Gerais - Brasil<br>
 I mostly spend my free time suffering through games and enjoying strange sounds<br>
 Grey is my favorite color<br>
 Contact: <strong>pedro.hen.costa34@gmail.com</strong>
-</p>
 
 ## ☝🤓 Tech Stack
 
@@ -52,11 +50,9 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 
 ## 🤨 Right Now
 
-<p>
-Current favorite video: <a href="https://www.youtube.com/watch?v=k3aZ1E_m_Hs" target="_blank">惨劇な天使のテーゼ【音MAD】 [Youtube]</a><br>
-Currently reading: <strong>Higurashi When They Cry: Meguri</strong><br>
-Current favorite song: <a href="https://soundcloud.com/loveloverecords/3db4a2e0-3777-4819-b2d4-beada093b4c4" target="_blank">Ely Muff - Automatic Predator [Soundcloud]</a>
-</p>
+Current favorite video: [惨劇な天使のテーゼ【音MAD】 [Youtube]](https://www.youtube.com/watch?v=k3aZ1E_m_Hs)  
+Currently reading: **Higurashi When They Cry: Meguri**  
+Current favorite song: [Ely Muff - Automatic Predator [Soundcloud]](https://soundcloud.com/loveloverecords/3db4a2e0-3777-4819-b2d4-beada093b4c4)
 
 ---
 
