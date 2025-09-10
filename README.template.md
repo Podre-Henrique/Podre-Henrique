@@ -5,8 +5,8 @@
 <p>
 Hi, I’m Pedro Henrique<br>
 Computer Engineering Student at UEMG<br>
-Divinópolis - Minas Gerais <br>
-My favorite hobbies are: Getting frustrated while gaming and listening to weird music<br>
+Minas Gerais - Brasil<br>
+I mostly spend my free time suffering through games and enjoying strange sounds<br>
 Grey is my favorite color<br>
 Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 </p>
