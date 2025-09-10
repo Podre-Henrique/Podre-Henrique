@@ -2,8 +2,8 @@ name: Update Dollar Quote
 
 on:
   workflow_dispatch:
-  # push:
-  #   branches: [ "main" ]
+  push:
+    branches: [ "main" ]
   schedule:
     - cron: '30 10 * * *'
     - cron: '30 22 * * *'
@@ -25,22 +25,23 @@ jobs:
           FETCH_DATE=$(date +'%m-%d-%Y')
           RESPONSE=$(curl -s "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='$FETCH_DATE'")
           NEW_VALUE=$(echo $RESPONSE | jq -r '.value[0].cotacaoVenda // ""')
-
           if [[ -z "$NEW_VALUE" ]]; then
             FETCH_DATE=$(date -d '-1 day' +'%m-%d-%Y')
             RESPONSE=$(curl -s "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='$FETCH_DATE'")
             NEW_VALUE=$(echo $RESPONSE | jq -r '.value[0].cotacaoVenda // ""')
           fi
 
-          if [[ -n "$NEW_VALUE" ]]; then
-            BRL_FORMATED=$(printf "%.2f" "$NEW_VALUE" | tr '.' ',')
-            BRL_DAY=$(date +'%d/%m/%Y')
+          OLD_BRL_FORMATED=$(grep -oP '[0-9]+,[0-9]{2}' README.md | head -n 1)
+          NEW_BRL_FORMATED=$(printf "%.2f" "$NEW_VALUE" | tr '.' ',')
+          if [[ -n "$NEW_VALUE" && "$NEW_VALUE" != "$OLD_BRL_FORMATED"]]; then
+            echo "Different values: updating README.md file"
+            NEW_BRL_DAY=$(date +'%d/%m/%Y')
 
-            sed "s|{{usd_to_brl}}|$BRL_FORMATED|g" README.template.md | sed "s|{{usd_to_brl_day}}|$BRL_DAY|g" > Readme.md
+            sed "s|{{usd_to_brl}}|$NEW_BRL_FORMATED|g" README.template.md | sed "s|{{usd_to_NEW_BRL_DAY}}|$NEW_BRL_DAY|g" > README.md
             
             git config user.name 'github-actions[bot]'
             git config user.email 'github-actions[bot]@users.noreply.github.com'
-            git add Readme.md
+            git add README.md
             git commit -m "[bot]: I forgive you"
             git push
           fi
