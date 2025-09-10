@@ -37,7 +37,7 @@ jobs:
             echo "Different values: updating README.md file"
             NEW_BRL_DAY=$(date +'%d/%m/%Y')
 
-            sed "s|{{usd_to_brl}}|$NEW_BRL_FORMATED|g" README.template.md | sed "s|{{usd_to_NEW_BRL_DAY}}|$NEW_BRL_DAY|g" > README.md
+            sed "s|{{usd_to_brl}}|$NEW_BRL_FORMATED|g" README.template.md | sed "s|{{usd_to_brl_day}}|$NEW_BRL_DAY|g" > README.md
             
             git config user.name 'github-actions[bot]'
             git config user.email 'github-actions[bot]@users.noreply.github.com'

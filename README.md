@@ -62,5 +62,5 @@ Current favorite song: <a href="https://soundcloud.com/loveloverecords/3db4a2e0-
 
 # 🇧🇷 Brasil-sil-sil
 
-  💸 1 Dólar (USD) = <strong>5,43</strong> <small>[<i>Fonte: Banco Central do Brasil — acessado em {{usd_to_brl_day}}</i>]</small>
+  💸 1 Dólar (USD) = <strong>5,40</strong> <small>[<i>Fonte: Banco Central do Brasil — acessado em {{usd_to_brl_day}}</i>]</small>
 <br>...
