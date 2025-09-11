@@ -51,30 +51,42 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 ## 🤨 Right Now
 
 <div>
-<table width="80%">
-  <tbody><tr>
-    <td align="left">▶️ <strong>Current favorite video</strong></td>
-    <td align="right"><a href="https://www.youtube.com/watch?v=k3aZ1E_m_Hs">惨劇な天使のテーゼ【音MAD】</a></td>
-  </tr></tbody>
-</table>
-<a href="https://www.youtube.com/watch?v=k3aZ1E_m_Hs" target="_blank">
-  <img src="https://img.youtube.com/vi/k3aZ1E_m_Hs/sddefault.jpg" height="200">
-</a>
-<br>
 
-<table width="80%">
-  <tbody><tr>
-    <td align="left">📚 <strong>Currently reading</strong></td>
-    <td align="right">Higurashi When They Cry: Meguri</td>
-  </tr></tbody>
-</table>
-<img src="https://preview.redd.it/higurashi-meguri-full-new-chapter-colored-page-as-drawn-by-v0-z823ux7w98db1.png?width=640&crop=smart&auto=webp&s=5ae07d1dd85a0a0c0f2d179d929f671e07675890" alt="Higurashi When They Cry: Meguri"  height="200">
-<br>
-
-<table width="80%">
+<table width="60%">
   <tbody><tr>
     <td >
-      <table width="100%"> 
+      <table width="80%"> 
+        <tbody><tr> 
+          <td align="left">🎵 <strong>Current favorite video</strong></td> 
+          <td align="right"><a href="https://www.youtube.com/watch?v=k3aZ1E_m_Hs">惨劇な天使のテーゼ【音MAD】</a></td> 
+        </tr></tbody> 
+      </table>
+      <a href="https://www.youtube.com/watch?v=k3aZ1E_m_Hs" target="_blank"> 
+          <img src="https://img.youtube.com/vi/k3aZ1E_m_Hs/sddefault.jpg" height="200"> 
+      </a>
+    </td>
+  </tr></tbody>
+</table>
+
+<table width="60%">
+  <tbody><tr>
+    <td >
+      <table width="80%"> 
+        <tbody><tr> 
+          <td align="left">🎵 <strong>Currently reading</strong></td> 
+          <td align="right">Higurashi When They Cry: Meguri</a></td> 
+        </tr></tbody> 
+      </table>
+          <img src="https://preview.redd.it/higurashi-meguri-full-new-chapter-colored-page-as-drawn-by-v0-z823ux7w98db1.png?width=640&crop=smart&auto=webp&s=5ae07d1dd85a0a0c0f2d179d929f671e07675890" height="200"> 
+      </a>
+    </td>
+  </tr></tbody>
+</table>
+
+<table width="60%">
+  <tbody><tr>
+    <td >
+      <table width="80%"> 
         <tbody><tr> 
           <td align="left">🎵 <strong>Current favorite song</strong></td> 
           <td align="right"><a href="https://soundcloud.com/loveloverecords/3db4a2e0-3777-4819-b2d4-beada093b4c4">Ely Muff - Automatic Predator</a></td> 
