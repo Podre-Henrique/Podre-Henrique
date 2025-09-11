@@ -73,13 +73,19 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 
 <table width="80%">
   <tbody><tr>
-    <td align="left">🎵 <strong>Current favorite song</strong></td>
-    <td align="right"><a href="https://soundcloud.com/loveloverecords/3db4a2e0-3777-4819-b2d4-beada093b4c4">Ely Muff - Automatic Predator</a></td>
+    <td >
+      <table width="100%"> 
+        <tbody><tr> 
+          <td align="left">🎵 <strong>Current favorite song</strong></td> 
+          <td align="right"><a href="https://soundcloud.com/loveloverecords/3db4a2e0-3777-4819-b2d4-beada093b4c4">Ely Muff - Automatic Predator</a></td> 
+        </tr></tbody> 
+      </table>
+      <a href="https://soundcloud.com/loveloverecords/3db4a2e0-3777-4819-b2d4-beada093b4c4" target="_blank"> 
+          <img src="https://i1.sndcdn.com/artworks-A23F6mypJG5hlrgu-JYgfKQ-t500x500.png" height="200"> 
+      </a>
+    </td>
   </tr></tbody>
 </table>
-<a href="https://soundcloud.com/loveloverecords/3db4a2e0-3777-4819-b2d4-beada093b4c4" target="_blank">
-    <img src="https://i1.sndcdn.com/artworks-A23F6mypJG5hlrgu-JYgfKQ-t500x500.png" alt="Ely Muff - Automatic Predator" height="200">
-</a>
 </div>
 
 ---
