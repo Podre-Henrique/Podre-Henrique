@@ -55,7 +55,7 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 <table width="60%">
   <tbody><tr>
     <td >
-      <table width="80%"> 
+      <table width="60%"> 
         <tbody><tr> 
           <td align="left">🎵 <strong>Current favorite video</strong></td> 
           <td align="right"><a href="https://www.youtube.com/watch?v=k3aZ1E_m_Hs">惨劇な天使のテーゼ【音MAD】</a></td> 
@@ -71,7 +71,7 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 <table width="60%">
   <tbody><tr>
     <td >
-      <table width="80%"> 
+      <table width="60%"> 
         <tbody><tr> 
           <td align="left">🎵 <strong>Currently reading</strong></td> 
           <td align="right">Higurashi When They Cry: Meguri</a></td> 
@@ -86,7 +86,7 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 <table width="60%">
   <tbody><tr>
     <td >
-      <table width="80%"> 
+      <table width="60%"> 
         <tbody><tr> 
           <td align="left">🎵 <strong>Current favorite song</strong></td> 
           <td align="right"><a href="https://soundcloud.com/loveloverecords/3db4a2e0-3777-4819-b2d4-beada093b4c4">Ely Muff - Automatic Predator</a></td> 
