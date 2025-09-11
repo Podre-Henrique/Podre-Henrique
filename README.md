@@ -58,9 +58,9 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
   </tr></tbody>
 </table>
 <a href="https://www.youtube.com/watch?v=k3aZ1E_m_Hs" target="_blank">
-  <img src="https://img.youtube.com/vi/k3aZ1E_m_Hs/sddefault.jpg" height="250">
+  <img src="https://img.youtube.com/vi/k3aZ1E_m_Hs/sddefault.jpg" height="200">
 </a>
-<br><br>
+<br>
 
 <table width="80%">
   <tbody><tr>
@@ -68,8 +68,8 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
     <td align="right">Higurashi When They Cry: Meguri</td>
   </tr></tbody>
 </table>
-<img src="https://preview.redd.it/higurashi-meguri-full-new-chapter-colored-page-as-drawn-by-v0-z823ux7w98db1.png?width=640&crop=smart&auto=webp&s=5ae07d1dd85a0a0c0f2d179d929f671e07675890" alt="Higurashi When They Cry: Meguri"  height="250">
-<br><br>
+<img src="https://preview.redd.it/higurashi-meguri-full-new-chapter-colored-page-as-drawn-by-v0-z823ux7w98db1.png?width=640&crop=smart&auto=webp&s=5ae07d1dd85a0a0c0f2d179d929f671e07675890" alt="Higurashi When They Cry: Meguri"  height="200">
+<br>
 
 <table width="80%">
   <tbody><tr>
@@ -78,7 +78,7 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
   </tr></tbody>
 </table>
 <a href="https://soundcloud.com/loveloverecords/3db4a2e0-3777-4819-b2d4-beada093b4c4" target="_blank">
-    <img src="https://i1.sndcdn.com/artworks-A23F6mypJG5hlrgu-JYgfKQ-t500x500.png" alt="Ely Muff - Automatic Predator" height="250">
+    <img src="https://i1.sndcdn.com/artworks-A23F6mypJG5hlrgu-JYgfKQ-t500x500.png" alt="Ely Muff - Automatic Predator" height="200">
 </a>
 </div>
 
