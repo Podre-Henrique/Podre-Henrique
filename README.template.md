@@ -49,7 +49,6 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 ## 🤨 Right Now
 
 <div>
-
 <table width="60%">
   <tbody><tr>
     <td >
@@ -107,5 +106,5 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 
 # 🇧🇷 Brasil-sil-sil
 
-  💸 1 Dólar (USD) = <strong>{{usd_to_brl}}</strong> &emsp;<small>[<i>Fonte: Banco Central do Brasil — acessado em {{usd_to_brl_day}}</i>]</small>
+  💸 1 Dólar (USD) = <strong>R$ {{usd_to_brl}}</strong> &emsp;<small>[<i>Fonte: Banco Central do Brasil — acessado em {{usd_to_brl_day}}</i>]</small>
 <br>...
