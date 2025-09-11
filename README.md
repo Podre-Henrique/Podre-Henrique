@@ -57,7 +57,7 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
     <td >
       <table width="60%"> 
         <tbody><tr> 
-          <td align="left">🎵 <strong>Current favorite video</strong></td> 
+          <td align="left">▶️ <strong>Current favorite video</strong></td> 
           <td align="right"><a href="https://www.youtube.com/watch?v=k3aZ1E_m_Hs">惨劇な天使のテーゼ【音MAD】</a></td> 
         </tr></tbody> 
       </table>
@@ -75,7 +75,7 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
     <td >
       <table width="60%"> 
         <tbody><tr> 
-          <td align="left">🎵 <strong>Currently reading</strong></td> 
+          <td align="left">📚 <strong>Currently reading</strong></td> 
           <td align="right">Higurashi When They Cry: Meguri</a></td> 
         </tr></tbody> 
       </table>
