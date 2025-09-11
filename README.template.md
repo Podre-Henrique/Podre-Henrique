@@ -1,5 +1,3 @@
-# How are you? Fine, thank you
-
 ## 🙂 About Me
 
 Hi, I’m Pedro Henrique<br>
