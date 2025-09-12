@@ -48,6 +48,7 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 
 ## 🤨 Right Now
 
+<details>
 <div>
 <table width="60%">
   <tbody><tr>
@@ -101,6 +102,7 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
   </tr></tbody>
 </table>
 </div>
+</details>
 
 ---
 
