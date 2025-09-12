@@ -46,7 +46,8 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
   </tbody>
 </table>
 
-<details><summary><h2>🤨 Right Now</h2></summary>
+## 🤨 Right Now
+<details>
 <div>
 <table width="60%">
   <tbody><tr>
