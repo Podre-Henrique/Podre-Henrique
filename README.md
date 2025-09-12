@@ -1,10 +1,12 @@
 ## 🙂 About Me
+
 Hi, I’m Pedro Henrique<br>
 Computer Engineering Student at UEMG<br>
 Minas Gerais - Brasil<br>
 I mostly spend my free time suffering through games and enjoying strange sounds<br>
 Grey is my favorite color<br>
 Contact: <strong>pedro.hen.costa34@gmail.com</strong>
+
 ## ☝🤓 Tech Stack
 
 <table>
@@ -45,7 +47,7 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 </table>
 
 ## 🤨 Right Now
-<details>
+
 <div>
 <table width="60%">
   <tbody><tr>
@@ -64,6 +66,7 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
     </td>
   </tr></tbody>
 </table>
+
 <table width="60%">
   <tbody><tr>
     <td >
@@ -98,10 +101,10 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
   </tr></tbody>
 </table>
 </div>
-</details>
+
 ---
 
 # 🇧🇷 Brasil-sil-sil
 
-  💸 1 Dólar (USD) = <strong>R$ 5,39</strong> &emsp;<small>[<i>Fonte: Banco Central do Brasil — acessado em 11/09/2025</i>]</small>
+  💸 1 Dólar (USD) = <strong>R$ 5,37</strong> &emsp;<small>[<i>Fonte: Banco Central do Brasil — acessado em 12/09/2025</i>]</small>
 <br>...
