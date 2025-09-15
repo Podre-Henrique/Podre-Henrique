@@ -47,7 +47,7 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 </table>
 
 ## 🤨 Right Now
-
+<details>
 <div>
 <table width="60%">
   <tbody><tr>
@@ -101,10 +101,11 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
   </tr></tbody>
 </table>
 </div>
+</details>
 
 ---
 
 # 🇧🇷 Brasil-sil-sil
 
-  💸 1 Dólar (USD) = <strong>R$ 5,37</strong> &emsp;<small>[<i>Fonte: Banco Central do Brasil — acessado em 12/09/2025</i>]</small>
+  💸 1 Dólar (USD) = <strong>R$ 5,32</strong> &emsp;<small>[<i>Fonte: Banco Central do Brasil — acessado em 15/09/2025</i>]</small>
 <br>...
