@@ -107,5 +107,5 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 
 # 🇧🇷 Brasil-sil-sil
 
-  💸 1 Dólar (USD) = <strong>R$ 5,54</strong> &emsp;<small>[<i>Fonte: Banco Central do Brasil — acessado em 24/12/2025</i>]</small>
+  💸 1 Dólar (USD) = <strong>R$ 5,57</strong> &emsp;<small>[<i>Fonte: Banco Central do Brasil — acessado em 29/12/2025</i>]</small>
 <br>...
