@@ -1,11 +1,10 @@
 ## 🙂 About Me
 
 Hi, I’m Pedro Henrique<br>
-Computer Engineering Student at UEMG<br>
-Minas Gerais - Brasil<br>
-I mostly spend my free time suffering through games and enjoying strange sounds<br>
-Grey is my favorite color<br>
-Contact: <strong>pedro.hen.costa34@gmail.com</strong>
+{{education}}<br>
+{{location}}<br>
+{{hobbies}}<br>
+{{fav_color}} is my favorite color<br>
 
 ## ☝🤓 Tech Stack
 
@@ -20,27 +19,13 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
   <tbody>
     <tr>
       <td align="center" valign="top" style="border-right: 1px solid;">
-        Go<br>
-        Python<br>
-        C++<br>
-        Dart (Flutter)<br>
-        C<br>
-        C#
+{{prog_langs}}
       </td>
       <td align="center" valign="top" style="border-right: 1px solid;">
-        MariaDB<br>
-        MySQL<br>
-        PostgreSQL<br>
-        MongoDB<br>
-        Redis
+{{databases}}
       </td>
       <td align="center" valign="top" >
-        Docker<br>
-        Terraform<br>
-        Tofu <br>
-        Kubernetes (k8s / k3s)<br>
-        Prometheus<br>
-        Grafana
+{{devops_tools}}
       </td>
     </tr>
   </tbody>
@@ -55,12 +40,12 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
       <table width="60%"> 
         <tbody><tr> 
           <td align="left">▶️ <strong>Current favorite video</strong></td> 
-          <td align="right"><a href="https://www.youtube.com/watch?v=k3aZ1E_m_Hs">惨劇な天使のテーゼ【音MAD】</a></td> 
+          <td align="right"><a href="{{now_fav_video_url}}">{{now_fav_video}}</a></td> 
         </tr></tbody> 
       </table>
       <div align="center">
-      <a href="https://www.youtube.com/watch?v=k3aZ1E_m_Hs" target="_blank"> 
-          <img src="https://img.youtube.com/vi/k3aZ1E_m_Hs/sddefault.jpg" height="200"> 
+      <a href="{{now_fav_video_url}}" target="_blank"> 
+          <img src="https://img.youtube.com/vi/{{now_fav_video_id}}/sddefault.jpg" height="200"> 
       </a>
       </div>
     </td>
@@ -73,11 +58,11 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
       <table width="60%"> 
         <tbody><tr> 
           <td align="left">📚 <strong>Currently reading</strong></td> 
-          <td align="right">Higurashi When They Cry: Meguri</a></td> 
+          <td align="right">{{now_reading}}</td> 
         </tr></tbody> 
       </table>
       <div align="center">
-        <img src="https://preview.redd.it/higurashi-meguri-full-new-chapter-colored-page-as-drawn-by-v0-z823ux7w98db1.png?width=640&crop=smart&auto=webp&s=5ae07d1dd85a0a0c0f2d179d929f671e07675890" height="200">
+        <img src="{{now_reading_img}}" height="200">
       </div>
     </td>
   </tr></tbody>
@@ -89,12 +74,12 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
       <table width="60%"> 
         <tbody><tr> 
           <td align="left">🎵 <strong>Current favorite song</strong></td> 
-          <td align="right"><a href="https://soundcloud.com/loveloverecords/3db4a2e0-3777-4819-b2d4-beada093b4c4">Ely Muff - Automatic Predator</a></td> 
+          <td align="right"><a href="{{now_fav_music_url}}">{{now_fav_music}}</a></td> 
         </tr></tbody> 
       </table>
       <div align="center">
-      <a href="https://soundcloud.com/loveloverecords/3db4a2e0-3777-4819-b2d4-beada093b4c4" target="_blank"> 
-          <img src="https://i1.sndcdn.com/artworks-A23F6mypJG5hlrgu-JYgfKQ-t500x500.png" height="200"> 
+      <a href="{{now_fav_music_url}}" target="_blank"> 
+          <img src="{{now_fav_music_img}}" height="200"> 
       </a>
       </div>
     </td>
@@ -107,5 +92,6 @@ Contact: <strong>pedro.hen.costa34@gmail.com</strong>
 
 # 🇧🇷 Brasil-sil-sil
 
-  💸 1 Dólar (USD) = <strong>R$ {{usd_to_brl}}</strong> &emsp;<small>[<i>Fonte: Banco Central do Brasil — acessado em {{usd_to_brl_day}}</i>]</small>
-<br>...
+💸 1 Dólar (USD) = <strong>R$ {{usd_to_brl}}</strong> &emsp;<small>[<i>Fonte: Banco Central do Brasil — acessado em {{usd_to_brl_day}}</i>]</small>
+
+<br>

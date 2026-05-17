@@ -1,0 +1,40 @@
+{
+    "hobbies": "Getting angry while gaming and listening to weird music",
+    "education": "Computer Engineering Student at UEMG",
+    "location": "Divinópolis-Minas Gerais",
+    "prog_langs": [
+        "Go",
+        "Python",
+        "C++",
+        "Dart(Flutter)",
+        "C",
+        "C#",
+        "Java"
+    ],
+    "databases": [
+        "MariaDB",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis"
+    ],
+    "devops_tools": [
+        "Docker",
+        "Terraform",
+        "tofu",
+        "k8s",
+        "k3s",
+        "Prometheus",
+        "Grafana"
+    ],
+    "now_fav_music": "Entangle Night(1.111x) - DJ SHARPNEL",
+    "now_fav_music_link": "https://soundcloud.com/mag1czx/entangle-night-1111x-200bpm [Soundcloud]",
+    "now_fav_music_img": "https://i1.sndcdn.com/artworks-14dCRl4LNeK0bKmQ-thHrxA-t500x500.png",
+    "now_fav_video": "consultório do Dr. Pisca",
+    "now_fav_video_link": "https://www.youtube.com/watch?v=86eLx7W9j8E [Youtube]",
+    "now_reading": "Entendendo Estruturas de Dados",
+    "now_reading_img": "https://m.media-amazon.com/images/I/81MNGKuzJcL._AC_UF1000,1000_QL80_.jpg",
+    "fav_color": "Grey",
+    "usd_to_brl": "5,07",
+    "usd_to_brl_day": "15/05/2026"
+}
