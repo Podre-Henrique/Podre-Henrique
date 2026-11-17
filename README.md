@@ -108,6 +108,6 @@ Docker<br>
 
 # 🇧🇷 Brasil-sil-sil
 
-💸 1 Dólar (USD) = <strong>R$ 5,73</strong> &emsp;<small>[<i>Fonte: Banco Central do Brasil — acessado em 16/11/2026</i>]</small>
+💸 1 Dólar (USD) = <strong>R$ 5,79</strong> &emsp;<small>[<i>Fonte: Banco Central do Brasil — acessado em 17/11/2026</i>]</small>
 
 <br>
